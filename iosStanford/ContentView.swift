@@ -20,15 +20,19 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.purple)
         }
+        .font(.largeTitle)
         .padding()
         
         ZStack{
             Circle()
+                .foregroundStyle(.red)
             Image(systemName: "tree")
                 .foregroundStyle(.white)
                 .imageScale(.large)
+                .font(.largeTitle)
             
         }
+        .padding(30)
     }
     
     
